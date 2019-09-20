@@ -1,1 +1,163 @@
-Hello World
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Enta's Profile</title>
+  <link rel="stylesheet" href="./ress.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+  <link rel="stylesheet" href="./styles.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+<body>
+  <nav class="navbar is-fixed-top navbar has-shadow is-spaced" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="https://bulma.io">
+          <img src="./images/logo.png" alt="Enta's Profile" width="112">
+        </a>
+      </div>
+    </div>
+  </nav>
+  <div class="main-visual-section">
+    <div class="my-icon">
+      <img src="./images/enta.jpg">
+    </div>
+    <h1 id="js-type-text"></h1>
+  </div>
+  <section class="section">
+    <div class="container">
+      <div class="columns">
+        <div class="column">
+          <h2 class="title is-2 has-text-centered	has-text-grey">Profile</h2>
+          <div class="content has-text-centered">
+            えんた（本名：遠藤拓也）/ 1994年生まれ / 出身：宮城県石巻市 / 元デザイナー志望のエンジニア
+            <br />
+            Web サービスを作ったり / LINE Bot 作ったり / プログラミングを教えたり
+            <br />
+            好きな映画：LUCY、苦手な食べ物：魚卵
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <h2 class="title is-2 has-text-centered	has-text-grey">3 favorites</h2>
+      <div class="columns">
+        <div class="column is-one-third">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="./images/programming.jpg" alt="">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title">Programming</p>
+                </div>
+              </div>
+              <div class="content">
+                はじめてのプログラミングで作ったものは、「無限ティッシュ」という、いわゆるクソゲーアプリでした。
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="./images/food.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title">Food</p>
+                </div>
+              </div>
+              <div class="content">
+                食べることも、食べものを美味しく撮ることも好きです。Instagram は食べ物専用アカウントです。
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="./images/darts.jpg" alt="">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title">Dart</p>
+                </div>
+              </div>
+              <div class="content">
+                気分転換によくダーツをします。クリケットが好きで、よくネット対戦をしますが、よく負けます。
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="columns">
+        <div class="column">
+          <h2 class="title is-2 has-text-centered	has-text-grey">Links</h2>
+          <div class="sns-links">
+            <ul>
+              <li>
+                <a href="https://twitter.com/enta0701" target="_blank">
+                  <p class="icon twitter"><img src="./images/twitter.svg" /></p>
+                  <p>@enta0701</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/endotakuya" target="_blank">
+                  <p class="icon github"><img src="./images/github.svg" /></p>
+                  <p>@endotakuya</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://qiita.com/enta0701" target="_blank">
+                  <p class="icon qiita"><img src="./images/qiita.svg" /></p>
+                  <p>@enta0701</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>  
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="columns">
+        <div class="column">
+          <h2 class="title is-2 has-text-centered	has-text-grey">Contact</h2>
+          <script src="https://sdk.form.run/js/v2/embed.js"></script>
+          <div
+            class="formrun-embed"
+            data-formrun-form="@enta-profile"
+            data-formrun-redirect="true">
+          </div>        
+        </div>
+      </div>
+    </div>  
+  </section>
+  <footer class="footer has-background-grey-dark">
+    <div class="content has-text-centered">
+      <p class="has-text-white-bis">@2019 Enta's Profile</p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <script src="./main.js"></script>
+</body>
+</html>
